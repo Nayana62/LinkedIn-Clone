@@ -1,6 +1,8 @@
 .header{
-    position: sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     background-color: white;
     justify-content: space-evenly;
@@ -44,7 +46,15 @@
 @media only screen and (max-width: 400px) {
     .header{
         display: flex;
-        justify-content: space-around;
+        padding: 10px 20px;
+        /* justify-content: space-around; */
+    }
+    .header__left{
+        flex: 1;
+    }
+    .header__search{
+        flex: 1;
+        margin-right: 20px;
     }
     .links{
         display: none;

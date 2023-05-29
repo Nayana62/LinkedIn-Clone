@@ -1,6 +1,9 @@
 .feed{
     flex: 0.6;
-    margin: 0 20px;
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 }
 
 .feed__inputContainer{
@@ -40,10 +43,11 @@
 
 @media only screen and (max-width: 400px) {
    .feed{
+    margin-top: 80px;
+    margin-bottom: 10px;
      display: flex;
      flex-direction: column;
-     justify-content: center;
-     align-items: center;
-     flex: 1;
+     padding-left: 40px;
+     padding-right: 10px;
    }
 }

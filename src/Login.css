@@ -5,6 +5,7 @@
    margin-right: auto;
     padding-top: 100px;
     padding-bottom: 100px;
+    z-index: 100;
 
 }
 
@@ -45,3 +46,4 @@
 .login > p{
     margin-top: 20px;
 }
+
