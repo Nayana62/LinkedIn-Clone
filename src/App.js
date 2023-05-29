@@ -8,6 +8,7 @@ import { login, logout, selectUser } from './features/userSlice';
 import Login from './Login';
 import { auth } from './firebase';
 import Widgets from './Widgets';
+import Footer from './Footer';
 
 function App() {
 
@@ -40,8 +41,11 @@ function App() {
       <Sidebar/>
       <Feed/>
       <Widgets/>
+      
       </div>
       }
+
+<Footer/>
 
      
     </div>

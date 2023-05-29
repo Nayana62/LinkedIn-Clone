@@ -1,0 +1,20 @@
+.footer{
+    display: none;
+}
+
+@media only screen and (max-width: 400px) {
+    .footer{
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: flex-end;
+        border: 2px solid red;
+        background-color: white;
+    }
+    
+    
+}

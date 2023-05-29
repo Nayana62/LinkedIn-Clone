@@ -1,7 +1,6 @@
 .feed{
     flex: 0.6;
     margin: 0 20px;
-
 }
 
 .feed__inputContainer{
@@ -38,3 +37,13 @@
 .feed__input > form > button {
     display: none;
 } 
+
+@media only screen and (max-width: 400px) {
+   .feed{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     flex: 1;
+   }
+}

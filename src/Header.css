@@ -35,8 +35,25 @@
 
 .header__right{
     display: flex;
-
 }
+
+.links{
+    display: flex;
+}
+
+@media only screen and (max-width: 400px) {
+    .header{
+        display: flex;
+        justify-content: space-around;
+    }
+    .links{
+        display: none;
+    }
+    .profile{
+        display: flex;
+        align-items: center;
+    }
+  }
 
 
 

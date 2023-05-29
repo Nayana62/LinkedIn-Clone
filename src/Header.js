@@ -36,19 +36,26 @@ function Header() {
         </div>
     </div>
 
-    <div className='header__right'>
+     <div className='header__right'>
+    <div className='links'>
         <HeaderOption Icon={HomeIcon}  title='Home'/>
         <HeaderOption Icon={SupervisorAccountIcon}  title='My Network'/>
         <HeaderOption Icon={BusinessCenterIcon}  title='Jobs'/>
         <HeaderOption Icon={ChatIcon}  title='Messaging'/>
         <HeaderOption Icon={NotificationsIcon}  title='Notifications'/>
-        <HeaderOption 
+    </div>
+
+    <div className="profile">
+    <HeaderOption 
         avatar= {true}
         title='Me' 
         onClick={logoutOfApp}
         />
+    </div>
 
     </div>
+
+
         
     </div>
   )
